@@ -7,15 +7,12 @@ void main()
     for(short i=1; i<1000; i++)
         if(esPrimoPerfecto(i)) printf("%3hd\n", i);
 }
-
 short esPrimoPerfecto(short n)
 {
-    if(esPrimo(n))
-    {
-        if(esPrimo((n-1) / 2))  return 1;
-        else                    return 0;
-    }
-    else                        return 0;
+    if(esPrimo(n) && esPrimo((n-1) / 2))
+        return 1;
+    else
+        return 0;
 }
 short esPrimo(short n)
 {
