@@ -4,7 +4,7 @@ int ind_mayor(int v[], short);
 void main()
 {
     int aleatorios[100], pos;
-    srand(time());
+    srand(time(NULL));
     puts("100 numeros aleatorios entre 0 y 100:\n");
 
     for(short i=0; i<100; i++)
