@@ -2,7 +2,7 @@
 #include <string.h>
 void main()
 {
-    char cad1[80], cad2[80];
+    char cad1[81], cad2[81];
     puts("\tComparador de cadenas");
     printf("Cadena 1: "); gets(cad1);
     printf("Cadena 2: "); gets(cad2);
