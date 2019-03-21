@@ -2,7 +2,7 @@
 #define PI 3.14159
 void main(void)
 {
-    unsigned short R;
+    short R;
     float L, S;
     const float pi = 3.14159;
 
