@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int x1, x2, x3, aux;
+    long x1, x2, x3, aux;
     printf("\tIntroduce tres valores a ordenar\n");
 
     printf("x1 = "); scanf("%d", &x1);
