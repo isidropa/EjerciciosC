@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int x1, x2, x3;
+    long x1, x2, x3;
     printf("x1 = "); scanf("%d", &x1);
     printf("x2 = "); scanf("%d", &x2);
     printf("x3 = "); scanf("%d", &x3);
