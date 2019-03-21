@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int num;
+    long num;
     printf("Introduce un numero de tres digitos: ");
     scanf("%d", &num);
 
