@@ -1,8 +1,7 @@
 #include <stdio.h>
 void factorizar(long n)
 {
-    int cont=0, ant=2;
-    long i;
+    long cont=0, ant=2, i;
     if(n <= 0) {
         printf("\xAD Error! %ld no se puede factorizar", n);
         return;
