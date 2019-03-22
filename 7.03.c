@@ -1,17 +1,17 @@
 #include <stdio.h>
-unsigned long fibonacci(unsigned short);
+long fibonacci(long);
 void main()
 {
-    unsigned short num;
+    long num;
     printf("Termino n de la serie de Fibonacci: ");
-    scanf("%hu", &num);
+    scanf("%d", &num);
 
-    printf("n->%hu: %lu", num, fibonacci(num));
+    printf("n->%d: %d", num, fibonacci(num));
 }
 
-unsigned long fibonacci(unsigned short n)
+long fibonacci(long n)
 {
-    unsigned long ant=0, act=1, aux;
+    long ant=0, act=1, aux;
     if(n == 0)      return 0;
     else if(n == 1) return 1;
     else
