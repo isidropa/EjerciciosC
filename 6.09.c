@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int a, b, cond=0;
+    long a, b, cond=0;
     puts("Fin de programa -> a>0, b>0 y b-a>100");
 
     do
