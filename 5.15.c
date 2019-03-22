@@ -2,7 +2,7 @@
 void main()
 {
     double px1, py1, px2, py2, m, n;
-    printf("Puntos:\nP1_x: "); scanf("%f", &px1);
+    printf("Puntos:\nP1_x: "); scanf("%lf", &px1);
     printf("P1_y: "); scanf("%lf", &py1);
     printf("\nP2_x: "); scanf("%lf", &px2);
     printf("P2_y: "); scanf("%lf", &py2);
