@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int a, b, coef=0;
+    long a, b, coef=0;
     printf("\tMetodo de division mediante \
 restas sucesivas\n");
     printf("a: "); scanf("%d", &a);
