@@ -2,10 +2,10 @@
 void intercambio(int *ant, int* act)
 {
     int aux = *act;
-    *act = *ant;
+    * act = *ant;
     *ant = aux;
 }
-void rotarVectorDer(int v[], short tam, short num)
+void rotarVectorDer(int v[], int tam, int num)
 {
     for(int j=1; j<=num; j++)
         for(int i=0; i<tam; i++)
