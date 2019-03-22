@@ -3,13 +3,13 @@
 void main()
 {
     char cad[80];
-    short i, voc[5]={0};
-    puts("Proporcioname una cadena de texto:");
+    int i, voc[5]={0};
+    puts("Proporcioname una cadena de texto \
+(80 caracteres max):");
     gets(cad);
-    //scanf("%s", cad);
+
     for(i=0; cad[i]; i++) //cad[i] => cad[i] != '\0'
     {
-        //printf("%c", cad[i]);
         switch(tolower(cad[i]))
         {
         case 'a':
