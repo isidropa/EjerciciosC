@@ -3,8 +3,7 @@
 void main()
 {
     srand(time(NULL));
-    int v[20], v2[20][2]={0};
-    short si=0, c=0;
+    int si=0,c=0, v[20], v2[20][2]={0};
 
     printf("\tAgrupador de valores aleatorios\nValores: ");
     for(int i=0; i<20; i++){
