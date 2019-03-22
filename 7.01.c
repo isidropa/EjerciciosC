@@ -14,7 +14,7 @@ void main()
             mcd = b;
             b = a%b;
             a = mcd;
-            printf("\ncont = %hu", ++cont);
+            printf("\ncont = %hd", ++cont);
         }
         printf("\nEl mcd es %d.\n\n", mcd);
     }while(1);
