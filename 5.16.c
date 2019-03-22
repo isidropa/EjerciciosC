@@ -2,10 +2,10 @@
 #include <math.h>
 void main()
 {
-    float a, b, c, delta;
+    double a, b, c, delta;
     puts("\tCalculadora ecuaciones de 2 grado, \
 dame los valores de los coeficientes a, b y c");
-    printf("a b c: "); scanf("%f %f %f", &a, &b, &c);
+    printf("a b c: "); scanf("%lf %lf %lf", &a, &b, &c);
 
     if(a!=0 && b!=0 && c!=0)
     {
