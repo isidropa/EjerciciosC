@@ -1,21 +1,21 @@
 #include <stdio.h>
 void main()
 {
-    unsigned short a, b, mcd;
+    long a, b, mcd;
     do
     {
-        printf("a: "); scanf("%hu", &a);
-        printf("b: "); scanf("%hu", &b);
+        printf("a: "); scanf("%d", &a);
+        printf("b: "); scanf("%d", &b);
         if(a == 0 && b == 0)
             break;
         while(b)
         {
-            static unsigned short cont = 0;
+            static short cont = 0;
             mcd = b;
             b = a%b;
             a = mcd;
             printf("\ncont = %hu", ++cont);
         }
-        printf("\nEl mcd es %hu.\n\n", mcd);
+        printf("\nEl mcd es %d.\n\n", mcd);
     }while(1);
 }
