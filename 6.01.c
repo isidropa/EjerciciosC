@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int num;
+    long num;
     printf("Tabla de multiplicar del numero: ");
     scanf("%d", &num);
 
