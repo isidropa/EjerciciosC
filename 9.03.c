@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
-short carNum(char c)
+int carNum(char c)
 {
     switch(c)
     {
@@ -15,10 +15,11 @@ void main()
 {
     int suma=0;
     char cad[80];
-    puts("\tSuma de numeros de una cadena");
+    puts("\tSuma de caracteres numericos de \
+una cadena");
     gets(cad);
 
-    for(short i=0; cad[i]; i++)
+    for(int i=0; cad[i]; i++)
         if(isdigit(cad[i]))
             suma += carNum(cad[i]);
     printf("Suma: %d", suma);
