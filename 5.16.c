@@ -12,8 +12,8 @@ dame los valores de los coeficientes a, b y c");
         delta = b*b - 4*a*c;
         if(delta >= 0)
             printf("x1 = %.4f\nx2 = %.4f",
-                   (-b + sqrt(delta)) / 2,
-                   (-b - sqrt(delta)) / 2);
+                   (-b + sqrt(delta)) / (2*a),
+                   (-b - sqrt(delta)) / (2*a));
         else
             printf("x1 = %.4f + %.4f i\nx2 = %.4f - %.4f i",
                    -b/(2*a), sqrt(-delta/(4*a*a)),
