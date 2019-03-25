@@ -1,27 +1,20 @@
 #include <stdio.h>
-void factorizar(long n)
-{
-    long cont=0, ant=2, i;
+void factorizar (long n) {
+    long cont=0;
     if(n <= 0) {
         printf("\xAD Error! %ld no se puede factorizar", n);
         return;
     }
     else if(n == 1) { printf("1\n"); return; }
-    for(i=2; i<=n; i++) {
-        if(n%i == 0) {
-            n /= i;
-            if(i == ant) { cont++; i--; }
+    for(long i=2; i<=n; i++) {
+        cont=0;
+        while (n%i == 0) {
+            ++cont;
+            n/=i;
         }
-        else {
-            if(cont == 0) { ant = i; ant++; }
-            else if(i == ant) {
-                printf("%ld^%d\n", i, cont);
-                ant++;
-                cont=0;
-            }
-        }
+        if (cont>0)
+            printf("%ld^%d\n", i, cont);
     }
-    printf("%ld^%d\n", i, cont);
 }
 
 void main()
