@@ -12,7 +12,6 @@ void main()
         case 0:
             printf("El resultado es x = %.2f", -b/a);
             break;
-        case 1:
         default:
             printf("ERROR. 'a' debe ser distinta de 0");
     }
